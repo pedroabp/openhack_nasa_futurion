@@ -192,6 +192,7 @@ nav a:focus {
     border: 2px solid #EEEEEE;
 }
 .about-grid-main:hover{
+  cursor:pointer;
 	border: 2px solid #000;
 	border-radius: 5px;
 	transition: 0.5s all;
@@ -276,6 +277,10 @@ nav a:focus {
     border-radius: 50px;
     box-shadow: 1px 1px 1px 1px rgba(153, 153, 153, 0.41)
 }
+
+
+
+
 .team-img ul.team-mem li a.fa {
     background-position: 12px 5px;
 }
@@ -1134,6 +1139,49 @@ ul.faq {
 	text-indent: 100%;
 	background: url(../images/top_mover.png) no-repeat 0px 0px;
 }
+
+
+.like{
+  display: inline-block;border: 2px solid white;padding: 9px;width: 60px;height: 60px;border-radius: 50px;box-shadow: 1px 1px 1px 1px rgba(153, 153, 153, 0.41);
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  cursor:pointer;
+
+  
+
+}
+
+
+.like:hover{
+  border: 2px solid #46a346;
+  background-color: #46a346;
+  
+
+
+
+}
+
+.xbutton{
+   display: inline-block;border: 2px solid white;padding: 9px;width: 60px;height: 60px;border-radius: 50px;box-shadow: 1px 1px 1px 1px rgba(153, 153, 153, 0.41);
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  cursor:pointer;
+}
+
+.xbutton:hover{
+  
+  border: 2px solid #ff1919;
+  background-color: #ff1919;
+
+
+
+}
+}
+
 /*--footer nav end here--*/
 /*--copyrights start here--*/
 .copy-right {

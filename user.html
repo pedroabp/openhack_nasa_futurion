@@ -1,0 +1,556 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>User</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--Google Fonts-->
+<!--google fonts-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.circlechart.js"></script>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+
+	jQuery(document).ready(function($) {
+		$(".nextstep").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this).offset().top},500);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+<body>
+<!--header strat here-->
+<div class="header" id="home">
+	<div class="container">
+	  <div class="header-main">
+	     <div class="logo">
+		    <h1><a href="index.html"><span class="logo-clr">G</span>IGSEEK</a>		 </h1>
+	     </div>
+	     <div class="top-nav">
+		 	 <span class="menu"> <img src="images/icon.png" alt=""></span>	
+		      <nav class="cl-effect-1" id="cl-effect-1">		   		       											
+					<ul class="res">
+						<li><a href="#home" class="scroll active">Home</a></li>
+						<li><a href="#about" class="scroll">About</a></li>
+						<li><a href="#team" class="scroll">Team</a></li>
+						<li><a href="#gallery" class="scroll">Statistics</a></li>	
+						<li><a href="#contact" class="scroll">Contact</a></li>						
+					</ul>
+		   </nav>
+				<!-- script-for-menu -->
+								 <script>
+								   $( "span.menu" ).click(function() {
+									 $( "ul.res" ).slideToggle( 300, function() {
+									 // Animation complete.
+									  });
+									 });
+								</script>
+				<!-- /script-for-menu -->
+
+	    </div>
+	     <div class="clearfix"> </div>
+	  </div>
+	</div>
+</div>
+<!--header strat here-->
+<!--banner start here-->
+<div  style="min-height:550px;" class="banner">
+	<div class="container">
+		<div class="banner-main">
+			   <h3>Tell us about you</h3>
+			   <h2>Follow the steps and let this gig kickstart</h2>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--banner end here-->
+<!--about start here-->
+<div class="about-w3l" id="about">
+	<div class="container">
+		<div class="about-main-w3l">
+			<div style='min-height: 350px;' class="about-top-w3l">
+			   <h3>Step 1</h3>
+			   <p> Place your Name Surname</p>
+			   <div style=' margin-top: 4%;' class="get-touch-bottom">
+			  	<form action="#" method="post">
+			  		<input type="text" placeholder="Name" name="Name" required>
+			  		 <input type="text" class="no-mar" placeholder="Surname" name="Surname" required>
+
+			  		 <input type="text" class="no-mar" placeholder="email" name="email" required>
+			  		
+			  		<input type="submit"  class='nextstep' value="Proceed">
+			  	</form>
+			  </div>
+			   
+
+
+
+
+			</div>
+		</div>
+		<div class="about-main-w3l">
+			<div style='min-height: 420px;' class="about-top-w3l">
+ 				<h3>Step 2</h3>
+			   	<p> Give us your skills</p>
+			   	<div style='margin-top: 6%;'>
+			   		<div class="col-md-6 about-grid">
+						<div class="about-grid-main">
+							<img src="images/d1.png" alt="">
+							<h4>Proffesional skills</h4>
+							<p> Pick your dexterities and your expertise</p>
+						</div>
+					</div>
+					<div class="col-md-6 about-grid">
+						<div class="about-grid-main">
+							<img src="images/d3.png" alt="">
+							<h4>Interpersonal skills</h4>
+							<p> Which features consist your character</p>
+						</div>
+					</div>
+
+					<div style='margin-top:6%;' class=' col-md-12 get-touch-bottom '>
+					
+						<input type="submit"  class='nextstep' value="Proceed">
+				
+					</div>
+			  		
+				</div>
+				
+			  <div class="clearfix"> </div>
+			</div>			
+		</div>
+
+		<div class="about-main-w3l">
+			<div style='min-height: 420px;' class="about-top-w3l">
+ 				<h3>Step 3</h3>
+			   	<p> Where do you prefer working</p>
+			   	<div style='margin-top: 6%;'>
+			   		<div class="col-md-12 about-grid">
+						<div class="about-grid-main">
+							<img src="images/d2.png" alt="">
+							<h4>Region</h4>
+							<p> Pinpoint where do you want to have your gig</p>
+						</div>
+					</div>
+				
+					<div style='margin-top:6%;' class=' col-md-12 get-touch-bottom '>
+					
+						<input type="submit"  class='nextstep' value="Submit">
+				
+					</div>
+			  		
+				</div>
+				
+			  <div class="clearfix"> </div>
+			</div>			
+		</div>
+	
+</div>
+<!--about end here-->
+<!--team start here-->
+<div class="team" id="team">
+	<div class="container">
+		<div class="team-main">
+			  <div class="team-top">
+			  	<h3>Results</h3>
+			  	<p>Your profile matches with these of those potential employes</p>
+			  </div>
+			  <div class="team-bottom">
+			  	<div class="col-md-6 team-gris">
+			  		<div class="team-member">
+				  		<div class="team-img">
+				  			<img style='  width: 64%;  height: 120px;' src="images/axis.jpg" alt="" class="img-responsive">
+				  			<ul class="team-mem">				  				
+				  				<li><a href="#" class="fa"><span class="team-icon"> </span> </a></li>
+				  				<li><a href="#" class="tw"><span class="team-icon"> </span> </a></li>
+				  				<li><a href="#" class="g"><span class="team-icon"> </span> </a></li>
+				  			</ul>
+				  		</div>
+				  		<div class="team-text">
+				  			<h3>AXIS</h3>
+				  			<h4>Communications</h4>
+				  		   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+				  		</div>
+				  	  <div class="clearfix"> </div>
+			  	   </div>
+			  	</div>
+			  	<div class="col-md-6 team-gris">
+			  	   <div class="team-member">
+				  		<div class="team-img">
+				  			<img style='  width: 64%;   height: 120px;' src="images/bosch.png" alt="" class="img-responsive">
+				  			<ul class="team-mem">				  				
+				  				<li><a href="#" class="fa"><span class="team-icon"> </span> </a></li>
+				  				<li><a href="#" class="tw"><span class="team-icon"> </span> </a></li>
+				  				<li><a href="#" class="g"><span class="team-icon"> </span> </a></li>
+				  			</ul>
+				  		</div>
+				  		<div class="team-text">
+				  			<h3>Bosch</h3>
+				  			<h4>Invented for Life</h4>
+				  		   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+				  		</div>
+				  	  <div class="clearfix"> </div>
+			  	   </div>
+			  </div>
+			  	<div class="clearfix"> </div>
+			 </div>
+			 <div class="team-bottom">
+			  	<div class="col-md-6 team-gris">
+			  		<div class="team-member">
+				  		<div class="team-img">
+				  			<img  style=' width: 64%;   height: 120px;' src="images/microsoft.png" alt="" class="img-responsive">
+				  			<ul class="team-mem">				  				
+				  				<li><a href="#" class="fa"><span class="team-icon"> </span> </a></li>
+				  				<li><a href="#" class="tw"><span class="team-icon"> </span> </a></li>
+				  				<li><a href="#" class="g"><span class="team-icon"> </span> </a></li>
+				  			</ul>
+				  		</div>
+				  		<div class="team-text">
+				  			<h3>Microsoft</h3>
+				  			<h4>Corporation</h4>
+				  		   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+				  		</div>
+				  	  <div class="clearfix"> </div>
+			  	   </div>
+			  	</div>
+			  	<div class="col-md-6 team-gris">
+			  		<div class="team-member">
+				  		<div class="team-img">
+				  			<img  style=' width: 64%;   height: 120px;' src="images/accenture.png" alt="" class="img-responsive">
+				  			<ul class="team-mem">				  				
+				  				<li><a href="#" class="fa"><span class="team-icon"> </span> </a></li>
+				  				<li><a href="#" class="tw"><span class="team-icon"> </span> </a></li>
+				  				<li><a href="#" class="g"><span class="team-icon"> </span> </a></li>
+				  			</ul>
+				  		</div>
+				  		<div class="team-text">
+				  			<h3>Accenture</h3>
+				  			<h4>High performance</h4>
+				  		   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+				  		</div>
+				  	  <div class="clearfix"> </div>
+			  	   </div>
+			  	</div>
+			  	
+		</div>
+	</div>
+</div>
+<!--team end here-->
+<!--design1 start here-->
+<!--design1 end here-->
+<!--services start here-->
+<div class="gallery" id="gallery">
+	<div class="container">
+		<div class="services-main-agile">
+			   <div class="service-top-agile">
+				   <h3>It' just Statistics</h3>
+				   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+			  </div>
+			  <div class="services-bottom">
+			  	 <div class="col-md-7 services-bottom-left">
+			  		<div class="ser-grid">
+			  		    <div class="col-md-2 ser-icon">
+			  			   <span><img src="images/d4.png" alt=""></span>
+			  			</div>
+			  			<div class="col-md-10 ser-text">
+			  				<h4>Excepteur sint</h4>
+			  				<p>But in certain circumstances and owing to the claims of duty or the obligations.</p>
+			  			</div>
+			  			<div class="clearfix"> </div>
+			  		</div>
+			  		<div class="ser-grid">
+			  		    <div class="col-md-2 ser-icon">
+			  			   <span><img src="images/d7.png" alt=""></span>
+			  			</div>
+			  			<div class="col-md-10 ser-text">
+			  				<h4>Graphic Design</h4>
+			  				<p>But in certain circumstances and owing to the claims of duty or the obligations.</p>
+			  			</div>
+			  			<div class="clearfix"> </div>
+			  		</div>
+			  		<div class="ser-grid">
+			  		    <div class="col-md-2 ser-icon">
+			  			   <span><img src="images/d6.png" alt=""></span>
+			  			</div>
+			  			<div class="col-md-10 ser-text">
+			  				<h4>Lorem ipsum</h4>
+			  				<p>But in certain circumstances and owing to the claims of duty or the obligations.</p>
+			  			</div>
+			  			<div class="clearfix"> </div>
+			  		</div>
+			  		
+			  	 </div>
+			  	 <div class="col-md-5 services-bottom-rit">
+			  	 	<div class="col-md-4 ser-crl1">
+			  		  <div class="demo-4" data-percent="75"> </div>
+			  		  <h4>Branding</h4>
+			  		 </div>
+			  		 <div class="col-md-4 ser-crl1">
+				      <div class="demo-5" data-percent="65"> </div>
+				      <h4>Lorem</h4>
+				     </div>
+				     <div class="col-md-4 ser-crl1">
+				      <div class="demo-6" data-percent="40"> </div>
+				      <h4>voluptatem</h4>
+				     </div>
+				     <div class="clearfix"> </div>
+			  	 </div>
+                        <script>
+							$('.demo-4').percentcircle({
+							animate : true,
+							diameter : 100,
+							guage: 3,
+							coverBg: '#fff',
+							bgColor: '#cf790c',
+							fillColor: '#46CFB0',
+							percentSize: '18px',
+							percentWeight: 'normal'
+							});		
+							$('.demo-5').percentcircle({
+							animate : true,
+							diameter : 100,
+							guage: 3,
+							coverBg: '#fff',
+							bgColor: '#efefef',
+							fillColor: '#8BC163',
+							percentSize: '18px',
+							percentWeight: '20px'
+							});	
+							$('.demo-6').percentcircle({
+							animate : true,
+							diameter : 100,
+							guage: 10,
+							coverBg: '#fff',
+							bgColor: '#efefef',
+							fillColor: '#D870A9',
+							percentSize: '18px',
+							percentWeight: 'normal'
+							});		
+										
+								</script>			  	 
+			   <div class="clearfix"> </div>
+		    </div>			
+		</div>
+	</div>
+</div>
+<!--services end here-->
+<!--design2 start here-->
+<div class="design2">
+	<div class="design-2-main">
+		<div class="col-md-6 design2-left">
+			
+		</div>
+		<div class="col-md-6 design2-right">
+			<div class="design2-top">
+				<h3>Best Work Environment</h3>
+			    <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</p>
+			</div>
+		   <div class="design2-main-grid">
+			   	<div class="design2-grid-left">
+			   		<span class="d-work"> </span>
+			   		<div class="design2-text">
+			   			<h4>Nam libero tempore</h4>			   			
+			   		</div>
+			   		<p> These cases are perfectly simple and easy to distinguish Nam libero tempore.</p>
+			   		<div class="clearfix"> </div>
+			   	</div>
+			   	<div class="design2-grid-left">
+			   		<span class="d1-work"> </span>
+			   		<div class="design2-text">
+			   			<h4>Tempore nam libero</h4>			   			
+			   		</div>
+			   		<p> These cases are perfectly simple and easy to distinguish Nam libero tempore.</p>
+			   		<div class="clearfix"> </div>
+			   	</div>
+			  <div class="clearfix"> </div>
+		   </div>
+		   <div class="design2-main-grid">
+			   	<div class="design2-grid-left">
+			   		<span class="d2-work"> </span>
+			   		<div class="design2-text">
+			   			<h4>Nam libero tempore</h4>			   			
+			   		</div>
+			   		<p> These cases are perfectly simple and easy to distinguish Nam libero tempore.</p>
+			   		<div class="clearfix"> </div>
+			   	</div>
+			   	<div class="design2-grid-left">
+			   		<span class="d3-work"> </span>
+			   		<div class="design2-text">
+			   			<h4>Tempore nam libero</h4>			   			
+			   		</div>
+			   		<p> These cases are perfectly simple and easy to distinguish Nam libero tempore.</p>
+			   		<div class="clearfix"> </div>
+			   	</div>
+			  <div class="clearfix"> </div>
+		   </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!--design2 end here-->
+<!--gallery-->
+<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+		    <script type="text/javascript">
+			    $(document).ready(function () {
+			        $('#horizontalTab').easyResponsiveTabs({
+			            type: 'default', //Types: default, vertical, accordion           
+			            width: 'auto', //auto or any width like 600px
+			            fit: true   // 100% fit in a container
+			        });
+			    });
+				
+</script>
+<!--script-->
+<script src="js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+		<!--light-box-files -->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.img-top a').Chocolat();
+		});
+		</script>
+
+<!--gallery-->
+
+<!--gallery-->
+<!--happy start here-->
+<script src="js/responsiveslides.min.js"></script>
+ <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+        manualControls: '#slider3-pager',
+      });
+    });
+  </script>
+<!--happy end here-->
+<!--get in touch start here-->
+<div class="get-touch" id="contact">
+	<div class="container">
+		<div class="get-touch-main">
+			  <div class="get-touch-top">
+			  	   <h3>Get In Touch</h3>
+			  	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+			  </div>
+			  <div class="get-touch-bottom">
+			  	<form action="#" method="post">
+			  		<input type="text" placeholder="Name" name="Name">
+			  		 <input type="text" class="no-mar" placeholder="Email" name="Email" required>
+			  		<textarea placeholder="Message" name="Message" ></textarea>
+			  		<input type="submit" value="Submit">
+			  	</form>
+			  </div>
+		</div>
+	</div>
+</div>
+<!--get in touch end here-->
+<!--map start here-->
+	<div class="map">
+		<ul class="faq">
+			<li class="item1 wow fadeInDown animated" data-wow-delay=".5s"><a href="#">Interactive Route Map<span class="glyphicon glyphicon-menu-down"></span></a>
+				<ul>
+					<li class="subitem1">
+						<iframe src=""> </iframe>
+					</li>										
+				</ul>
+			</li>
+		</ul>
+		<!-- script for tabs -->
+		<script type="text/javascript">
+			$(function() {
+			
+				var menu_ul = $('.faq > li > ul'),
+					   menu_a  = $('.faq > li > a');
+				
+				menu_ul.hide();
+			
+				menu_a.click(function(e) {
+					e.preventDefault();
+					if(!$(this).hasClass('active')) {
+						menu_a.removeClass('active');
+						menu_ul.filter(':visible').slideUp('normal');
+						$(this).addClass('active').next().stop(true,true).slideDown('normal');
+					} else {
+						$(this).removeClass('active');
+						$(this).next().stop(true,true).slideUp('normal');
+					}
+				});
+			
+			});
+		</script>
+		<!-- script for tabs -->
+	</div>
+<!--map end here-->
+<!--footer nav start-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+			<ul>
+				<li><a href="#home" class="scroll active">Home</a></li>
+				<li><a href="#about" class="scroll">About</a></li>
+				<li><a href="#team" class="scroll">Team</a></li>
+				<li><a href="#gallery" class="scroll">Statistics</a></li>	
+				<li><a href="#contact" class="scroll">Contact</a></li>						
+			</ul>
+		</div>
+	</div>
+</div>
+<!--footer nav end here--> 
+<!--copy rights start here-->
+<div class="copy-right">
+	<div class="container">
+		 <div class="copy-rights-main">		
+		 	       <ul class="ftr-icons">
+					<li><a href="#"><span class="fa"> </span>
+						<div class="tooltip"><span>Facebook</span></div>
+					</a></li>
+					<li><a href="#"><span class="tw"> </span>
+						<div class="tooltip"><span>Twitter</span></div>
+					</a></li>
+					<li><a href="#"><span class="g"> </span>
+						<div class="tooltip"><span>Google</span></div>
+					</a></li>
+				  </ul>
+ 	
+		 		  <p>Copyright &copy; 2016.HackTeam. Gigseek</p>		 	
+    	 </div>
+    </div>
+     <script type="text/javascript">
+										$(document).ready(function() {
+											/*
+											var defaults = {
+									  			containerID: 'toTop', // fading element id
+												containerHoverID: 'toTopHover', // fading element hover id
+												scrollSpeed: 1200,
+												easingType: 'linear' 
+									 		};
+											*/
+											
+											$().UItoTop({ easingType: 'easeOutQuart' });
+											
+										});
+									</script>
+						<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</div>
+<!--copy right end here-->
+</body>
+</html>
